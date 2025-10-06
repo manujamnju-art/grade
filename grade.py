@@ -1,13 +1,22 @@
-marks = input("enter the marks")
-if marks >= 90:
-    print("Grade : A")
-elif marks >= 80:
-    print("Grade:B")
-elif marks >= 70:
-    print("Grade:c")
-elif marks >= 60:
-    print("grade:D")
-elif marks >= 60:
-    print("Grade:E")
-elif marks >= 50:
-    print("Grade:F")
+marks1 = int(input("Enter your 1st  sub marks out of 100: "))
+marks2 = int(input("Enter your 2nd  sub marks out of 100: "))
+marks3 = int(input("Enter your 3rd sub marks out of 100: "))
+marks4 = int(input("Enter your 4th  sub marks out of 100: "))
+marks5 = int(input("Enter your 5th  sub marks out of 100: "))
+
+sum=marks1+marks2+marks3+marks4+marks5
+avg=sum/5
+
+if avg >= 90:
+    print("Grade: A")
+elif avg >= 80:
+    print("Grade: B")
+elif avg >= 70:
+    print("Grade: C")
+elif avg >= 60:
+    print("Grade: D")
+elif avg >= 50:
+    print("Grade: E")
+else :
+    print("Grade: F")
+
